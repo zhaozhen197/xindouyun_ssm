@@ -1,0 +1,51 @@
+<div class="formList clearfix">
+                                                <div class="formTi float-l">个人月均流水<span class="red">*</span></div>
+                                                <div class="form_input float-l">
+                                                    <input name="personalExpenses" type="text" placeholder="请输入"/>
+                                                </div>
+                                            </div>
+
+                                            <div class="formList clearfix">
+                                                <div class="formTi float-l">对公月均流水<span class="red">*</span></div>
+                                                <div class="form_input float-l">
+                                                    <input name="companyExpenses" type="text" placeholder="请输入"/>
+                                                </div>
+                                            </div>
+
+                                            <div class="formList clearfix">
+                                                <div class="formTi float-l">经营年限<span class="red">*</span></div>
+                                                <div class="form_input float-l">
+                                                    <select name="operationYears" class="form_sel">
+                                                        <option value="0">请选择</option>
+                                                        <option value="lessSixMonth">注册不满六个月</option>
+                                                        <option value="moreSixMonth">注册满6到12个月</option>
+                                                        <option value="oneYear">注册满1年</option>
+                                                        <option value="twoYear">2年内</option>
+                                                        <option value="threeYear">3年内</option>
+                                                      <option value="moreThreeYear">3年以上</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="formList clearfix">
+                                               <div class="formTi float-l">经营地<span class="red">*</span></div>
+                                                <div class="form_input float-l">
+                                                    <select name="locationOfCompany" class="form_sel">
+                                                        <option value="0">请选择</option>
+                                                      <option value="local">本地</option>
+                                                        <option value="non_local">外地</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+
+                                           <div class="formList clearfix">
+                                                <div class="formTi float-l">是否注册营业执照<span class="red">*</span></div>
+                                                <div class="form_input float-l">
+                                                    <select name="license" class="form_sel">
+                                                       <option value="0">请选择</option>
+                                                        <option value="true">是</option>
+                                                        <option value="false">否</option>
+                                                    </select>
+                                                </div>
+                                            </div>
